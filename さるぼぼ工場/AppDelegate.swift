@@ -3,7 +3,7 @@
 //  さるぼぼ工場
 //
 //  Created by サマーキャンプ on 2017/08/18.
-//  Copyright © 2017年 遠藤　大彰. All rights reserved.
+//  Copyright © 2017年 SuN. All rights reserved.
 //
 
 import UIKit

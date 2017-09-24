@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A948C1261F47CABA0008CB11 /* bgm_maoudamashii_8bit29.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A948C1241F47C83A0008CB11 /* bgm_maoudamashii_8bit29.mp3 */; };
+		A948C1271F47CABA0008CB11 /* se_maoudamashii_system06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A948C1251F47C83A0008CB11 /* se_maoudamashii_system06.mp3 */; };
+		A948C1281F47CABA0008CB11 /* se_maoudamashii_system49.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A948C1231F47C83A0008CB11 /* se_maoudamashii_system49.mp3 */; };
 		A9B274641F46DA2A0024B64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B274631F46DA2A0024B64A /* AppDelegate.swift */; };
 		A9B274661F46DA2A0024B64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B274651F46DA2A0024B64A /* ViewController.swift */; };
 		A9B274691F46DA2A0024B64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B274671F46DA2A0024B64A /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		A9B2746E1F46DA2A0024B64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B2746C1F46DA2A0024B64A /* LaunchScreen.storyboard */; };
 		A9B274791F46DA2A0024B64A /* ________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B274781F46DA2A0024B64A /* ________Tests.swift */; };
 		A9B274841F46DA2A0024B64A /* ________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B274831F46DA2A0024B64A /* ________UITests.swift */; };
+		A9B274A11F46F9C20024B64A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B274A01F46F9C20024B64A /* ResultViewController.swift */; };
+		A9B274A41F4705160024B64A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B274A31F4705160024B64A /* Social.framework */; };
+		A9B274A61F470B9C0024B64A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B274A51F470B9C0024B64A /* GameViewController.swift */; };
+		A9B274A81F4718880024B64A /* TargetImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B274A71F4718880024B64A /* TargetImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A948C1231F47C83A0008CB11 /* se_maoudamashii_system49.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = se_maoudamashii_system49.mp3; sourceTree = "<group>"; };
+		A948C1241F47C83A0008CB11 /* bgm_maoudamashii_8bit29.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_maoudamashii_8bit29.mp3; sourceTree = "<group>"; };
+		A948C1251F47C83A0008CB11 /* se_maoudamashii_system06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = se_maoudamashii_system06.mp3; sourceTree = "<group>"; };
 		A9B274601F46DA2A0024B64A /* さるぼぼ工場.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "さるぼぼ工場.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B274631F46DA2A0024B64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9B274651F46DA2A0024B64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		A9B2747F1F46DA2A0024B64A /* さるぼぼ工場UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "さるぼぼ工場UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B274831F46DA2A0024B64A /* ________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________UITests.swift"; sourceTree = "<group>"; };
 		A9B274851F46DA2B0024B64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B274A01F46F9C20024B64A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		A9B274A31F4705160024B64A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A9B274A51F470B9C0024B64A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A9B274A71F4718880024B64A /* TargetImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B274A41F4705160024B64A /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +96,10 @@
 				A9B274771F46DA2A0024B64A /* さるぼぼ工場Tests */,
 				A9B274821F46DA2A0024B64A /* さるぼぼ工場UITests */,
 				A9B274611F46DA2A0024B64A /* Products */,
+				A9B274A21F4705160024B64A /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		A9B274611F46DA2A0024B64A /* Products */ = {
 			isa = PBXGroup;
@@ -97,9 +114,15 @@
 		A9B274621F46DA2A0024B64A /* さるぼぼ工場 */ = {
 			isa = PBXGroup;
 			children = (
+				A948C1241F47C83A0008CB11 /* bgm_maoudamashii_8bit29.mp3 */,
+				A948C1251F47C83A0008CB11 /* se_maoudamashii_system06.mp3 */,
+				A948C1231F47C83A0008CB11 /* se_maoudamashii_system49.mp3 */,
 				A9B274631F46DA2A0024B64A /* AppDelegate.swift */,
+				A9B274A01F46F9C20024B64A /* ResultViewController.swift */,
 				A9B274651F46DA2A0024B64A /* ViewController.swift */,
 				A9B274671F46DA2A0024B64A /* Main.storyboard */,
+				A9B274A71F4718880024B64A /* TargetImageView.swift */,
+				A9B274A51F470B9C0024B64A /* GameViewController.swift */,
 				A9B2746A1F46DA2A0024B64A /* Assets.xcassets */,
 				A9B2746C1F46DA2A0024B64A /* LaunchScreen.storyboard */,
 				A9B2746F1F46DA2A0024B64A /* Info.plist */,
@@ -123,6 +146,14 @@
 				A9B274851F46DA2B0024B64A /* Info.plist */,
 			);
 			path = "さるぼぼ工場UITests";
+			sourceTree = "<group>";
+		};
+		A9B274A21F4705160024B64A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B274A31F4705160024B64A /* Social.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +224,7 @@
 				TargetAttributes = {
 					A9B2745F1F46DA2A0024B64A = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
 					};
 					A9B274731F46DA2A0024B64A = {
 						CreatedOnToolsVersion = 9.0;
@@ -229,6 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A948C1261F47CABA0008CB11 /* bgm_maoudamashii_8bit29.mp3 in Resources */,
+				A948C1271F47CABA0008CB11 /* se_maoudamashii_system06.mp3 in Resources */,
+				A948C1281F47CABA0008CB11 /* se_maoudamashii_system49.mp3 in Resources */,
 				A9B2746E1F46DA2A0024B64A /* LaunchScreen.storyboard in Resources */,
 				A9B2746B1F46DA2A0024B64A /* Assets.xcassets in Resources */,
 				A9B274691F46DA2A0024B64A /* Main.storyboard in Resources */,
@@ -256,8 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B274A61F470B9C0024B64A /* GameViewController.swift in Sources */,
 				A9B274661F46DA2A0024B64A /* ViewController.swift in Sources */,
 				A9B274641F46DA2A0024B64A /* AppDelegate.swift in Sources */,
+				A9B274A81F4718880024B64A /* TargetImageView.swift in Sources */,
+				A9B274A11F46F9C20024B64A /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +461,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HLK3H548W;
 				INFOPLIST_FILE = "さるぼぼ工場/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.timecapsuleinc.--------";
+				PRODUCT_BUNDLE_IDENTIFIER = org.timecapsuleinc.bobofactory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -436,10 +480,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HLK3H548W;
 				INFOPLIST_FILE = "さるぼぼ工場/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.timecapsuleinc.--------";
+				PRODUCT_BUNDLE_IDENTIFIER = org.timecapsuleinc.bobofactory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
